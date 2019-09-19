@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.my-3 {
+    margin-bottom: 1rem!important;
+    background-color: #F6F9F9;
+}
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    /* color: rgba(0,0,0,.9); */
+    color: #2d3950;
+    font-size: 14px;
+    font-weight: 600;
+}
+        .nav-link {
+    display: block;
+    padding: .5rem 1rem;
+            margin-left: 30px;
+}
+.banner-section{
+    background-image: url(../Images/baner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.banner-section .row{
+    min-height: 80vh;
+}
+.banner-content h1{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.banner-content span{
+    display: block;
+    width: 100%;
+    height: 2px;
+    color: #15A4FA;
+}
+.banner-content p{
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.banner-content a{
+    font-family: 'Lato', sans-serif;
+}
+.btn-custom{
+    color: white;
+    text-transform: capitalize;
+    border: 2px solid #15A4FA;
+    padding: 20px;
+    transition: 1s;
+}
+.btn:hover {
+    color: white;
+    text-decoration: none;
+    border: none;
+    background-color: #15A4FA;
+    border: 2px solid #15A4FA;
+}
+.arrow-icon{  
+color: white;   
+font-size: 25px;   
+position: absolute;   
+left: 50%;   
+transform: translateX(-43%);
+bottom: -50%;
+}
+.banner-section:hover i{
+    bottom: -55%;
+    transition: 1s;
+}
+.banner-note{
+    background-color: #F6F9F9;
+    min-height: 40vh;
+}
+.note-content{
+    margin: auto;
+    margin-top: 10vh;
+}
+.note-content h1{
+    color: #313131;
+    font-family: 'Lato', sans-serif;
+    font-size: 48px;
+}
+.note-content p{
+    color: #313131;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+.services{
+    margin-top: 100px;
+}
+.services h1{}
+.services p{}
+.icon-box{
+    height: 100px;
+    line-height: 120px;
+    width: 100px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#28acff+50,57bdff+50 */
+     /* Old browsers */
+     /* FF3.6-15 */
+     /* Chrome10-25,Safari5.1-6 */
+     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28acff', endColorstr='#57bdff',GradientType=0 ); /* IE6-9 */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#28acff+50,57bdff+50 */
+    background: #28acff; /* Old browsers */
+    background: -moz-linear-gradient(left,  #28acff 50%, #57bdff 50%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #28acff 50%,#57bdff 50%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #28acff 50%,#57bdff 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28acff', endColorstr='#57bdff',GradientType=1 ); /* IE6-9 */
+    text-align: center;
+    margin: auto;
+}
+.icon-box i{
+    height: 100px;
+    width: 100px;
+    color: white;
+    font-size: 60px;
+    margin-left: 13%;
+}
+.showcase-head{
+    background-color: #F6F9F9;
+    min-height: 40vh;
+    font-family: 'Lato', sans-serif;
+}
+.showcase-head-content{
+    margin: auto;
+    margin-top: 10vh;
+    font-family: 'Lato', sans-serif;
+}
+.showcase{
+    
+}
+.work{
+    position: relative;
+}
+.work img{}
+.work::before{
+    content: "";
+    position:absolute;
+    height:0%;
+    width:100%;
+    left: 0;
+    bottom: 0;
+    background-color: #57bdffa6;
+    transition: 1s;
+}
+.work:hover::before{
+    content: "";
+    position:absolute;
+    height:100%;
+    width:100%;
+    left: 0;
+    bottom: 0;
+    background-color: #57bdffa6;
+}
+.showcase{
+    padding: 30px;
+    background-color: #F6F9F9;
+}
+.showcase showcase-tow{
+    padding-top: 30px;
+}
+.showcase-one ul{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 1s;
+}
+.showcase-one:hover ul{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+.showcase ul li{
+    padding: 10px;
+}
+.showcase ul li a{
+    color: white;
+    border: 2;
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+}
+.showcase ul li a i{}
+
+element.style {
+    margin-top: 30px;
+}
